@@ -1,0 +1,11 @@
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Virtual Environment
+venv
+.env
+
+# Python
+__pycache__/
