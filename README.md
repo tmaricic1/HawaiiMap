@@ -1,1 +1,1 @@
-# HawaiiMap
+# Hawaii Heat Map Project
