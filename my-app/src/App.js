@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const [map, setMap] = useState("");
+
+  useEffect(() => {
+    async function fetchMap() {
+      const response = await fetch("http://localhost:8000/generateMap");
+      const mapObject = await response.json();
+      setMap(`data:image/png;base64,${mapObject.img}`);
+    }
+
+    fetchMap();
+  }, []);
+
+  return <div style={{ textAlign: "center" }}>{map && <img src={map} />}</div>;
 }
 
 export default App;
