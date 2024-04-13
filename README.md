@@ -8,7 +8,7 @@
 ## Generate the map
 
 1. `uvicorn main:app --reload` to run the fastAPI server
-2. `cd my-app` and then ``npm start` to run the react page
+2. `cd my-app` and then `npm start` to run the react page
 
 If you do not have npm installed, see the below link (for windows):
 https://www.freecodecamp.org/news/how-to-install-node-js-and-npm-on-windows-2/
