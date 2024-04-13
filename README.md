@@ -16,7 +16,7 @@ https://www.freecodecamp.org/news/how-to-install-node-js-and-npm-on-windows-2/
 If you experience the following error (on MacOS):
 pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
 Run:
-brew install java
+`brew install java`
 Then link it with the following:
-sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk \
- /Library/Java/JavaVirtualMachines/openjdk.jdk
+`sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk \
+ /Library/Java/JavaVirtualMachines/openjdk.jdk`
