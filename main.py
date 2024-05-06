@@ -122,8 +122,9 @@ async def wildFireMap():
 
     finalMap = stateMap.merge(aggregateDf, left_index=True, right_on='index', how='left')
 
-    #replace N/A values with 0 - no occurances
-    finalMap.fillna({'distribution':0}, inplace=True)
+    #replace N/A values with the mean
+    mean = finalMap['distribution'].mean()
+    finalMap.fillna({'distribution':mean}, inplace=True)
 
     finalMap.plot(column='distribution', cmap='Reds')
 
