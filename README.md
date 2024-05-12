@@ -20,3 +20,7 @@ Run:
 Then link it with the following:
 `sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk \
  /Library/Java/JavaVirtualMachines/openjdk.jdk`
+
+Datasets:
+Earthquake Data: https://www.usgs.gov/programs/earthquake- hazards
+Wildfire Data: https://pacificfireexchange.org/resource/fire-data/
