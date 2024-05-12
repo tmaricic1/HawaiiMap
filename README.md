@@ -22,6 +22,7 @@ Then link it with the following:
  /Library/Java/JavaVirtualMachines/openjdk.jdk`
 
 Datasets:
+<br />
 Earthquake Data: https://www.usgs.gov/programs/earthquake-hazards
 <br />
 Wildfire Data: https://pacificfireexchange.org/resource/fire-data/
