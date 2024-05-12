@@ -23,4 +23,5 @@ Then link it with the following:
 
 Datasets:
 Earthquake Data: https://www.usgs.gov/programs/earthquake-hazards
+<br />
 Wildfire Data: https://pacificfireexchange.org/resource/fire-data/
