@@ -1,5 +1,13 @@
 # Hawaii Heat Map Project
 
+Welcome! This project aims to visualize which housing districts of Hawaii experience the most earthquakes and wildfires as a set of heatmaps. They are displayed on a react page that refreshes in 30 seconds intervals to account for new data. This data can be viewed in the Datasets folder.
+
+Earthquakes:
+![Alt text](images/Earthquake.png)
+
+Wildfires:
+![Alt text](images/Wildfire.png)
+
 ## Setup
 
 1. Run `python -m venv venv` to create a virtual environment
